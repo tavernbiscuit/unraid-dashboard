@@ -7,6 +7,15 @@
 - Play with the developer sandbox and determine which Unraid data I want to share publicly
     - Observe returned responses, test and experiment
 
+# Status Ideas
+- Number of containers currently running
+    - This avoids container names and showing status for reach of them
+- Storage array used vs total, either as a percentage or in TB
+- Hardware information (i.e. cpu cores, memory, types of devices, etc.)
+- UPS information (i.e. model, load, etc.)
+- Number of VMs
+- Server uptime
+
 ## Python Retrieval
 
 - Use the `requests` library; consider Pydantic after first understanding and implementing the validation manually
